@@ -1,0 +1,171 @@
+*{
+	/*border: 1px solid red;*/
+	font-family: garamond; 
+}
+
+body{
+	background-color: #CFCFCF;
+}
+
+/*reset*/
+*{ 
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/*header*/
+
+#menu1{
+	background-color: #1F2A36; 
+	color: white; 
+	text-align: center; 
+	border-bottom: 2px outset #1F2A36;
+	padding: 5px 0px 2px 0px;
+}
+
+.logo{
+	position: relative; 
+	top: -10px; 
+	left: -28%;
+	margin-right: 0;
+}
+
+@media screen and (max-width: 1300px){
+	.logo{
+		display: none;
+	}
+
+}
+
+header h1{
+	font-size: 250%;
+	font-weight: 300;
+	padding: 1% 0 .5% 0;
+}
+
+header h2{
+	font-weight: 120;
+	font-size: 135%;
+	font-style: oblique;
+	color: grey;
+	padding: 0 0 0.5% 0;
+}
+
+.menu{ 
+	padding: .5% 0% .5% 25%; 
+}
+
+.menu li{
+	margin: 0 0; 
+	background-color: #1F2A36;
+	display: inline; 
+	border: 2px outset #1F2A36; 
+	font-size: 150%;
+	border-radius: 5px;
+}
+
+.menu li a{
+	color: white; 
+	opacity: .8;
+	font-weight: 600; 
+	padding: 3px 4% .22% 4%;
+}
+
+.menu li:hover{
+	background-color: #00FDC2;
+}
+
+.menu li a:hover{
+	color: black;
+}
+
+/*mise responsive du menu*/
+@media screen and (max-width: 900px){
+	header h2{
+		font-size: 130%; 
+	}
+	
+	.menu{
+		padding-left: 15%;
+	}
+	
+	.menu li{
+		font-size: 120%; 
+		padding: padding: .11% 2% .11% 2%;
+	}
+}
+	
+@media screen and (max-width: 600px){
+	.menu{
+		padding-left: 5%;
+	}
+}
+
+/*fin header*/
+	
+/*body2*/
+
+.body2{
+	padding: 1% 1% 1% 1%;
+}
+
+.titrebody2{
+	font-weight: bold;
+	font-size: 150%;
+	text-transform: uppercase;
+	text-decoration: underline; 
+	color: #CFCFCF;
+	border: 1px outset #484848; 
+	padding: .25% .8% .25% 1%;
+	background-color: #1F2A36;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 900px){
+	
+	.titrebody2{
+		font-size: 140%; 
+		left: 25%; 
+	}
+}
+
+/*fin de la mise en forme commune*/
+
+/*mise en forme générale des liens dans le texte*/
+
+.body2 a{
+	color: #111111; 
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 90%;
+}
+
+a:hover{
+	color: blue; 
+}
+
+/*pied de page*/
+
+footer{
+	background-color: #252525;	
+	color: white; 
+	text-align: center; 
+	font-size: 90%; 
+	text-transform: uppercase;
+	padding: .3% 0 .3% 0;
+	position: relative; 
+	border-top: 2px outset #808080;
+}
+
+footer a{
+	color: white;
+	font-weight: bold; 
+	opacity: 0.7;
+	text-decoration: none;
+	font-size: 110%;
+}
+
+footer a:hover{
+	color: green; 
+}
+
